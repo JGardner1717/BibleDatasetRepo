@@ -1,0 +1,21 @@
+{
+    "book": "James",
+    "references": [
+      {
+        "chapter": 1,
+        "verse": 2,
+        "related_verses": [
+          { "book": "Romans", "chapter": 5, "verse": 3 },
+          { "book": "1 Peter", "chapter": 1, "verse": 6 }
+        ]
+      },
+      {
+        "chapter": 2,
+        "verse": 17,
+        "related_verses": [
+          { "book": "Galatians", "chapter": 5, "verse": 6 }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "book": "James",
+    "notes": [
+      {
+        "chapter": 1,
+        "verse": 2,
+        "tags": ["faith", "trials"],
+        "text": "This verse reminds me to trust God during difficult seasons."
+      },
+      {
+        "chapter": 2,
+        "verse": 17,
+        "tags": ["faith", "works"],
+        "text": "Faith must manifest in action, not just words."
+      }
+    ]
+  }
+  

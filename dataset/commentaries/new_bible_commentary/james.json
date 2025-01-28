@@ -1,0 +1,18 @@
+{
+    "author": "John Calvin",
+    "book": "James",
+    "comments": [
+      {
+        "chapter": 1,
+        "verse_start": 2,
+        "verse_end": 4,
+        "text": "Calvin highlights the importance of perseverance in trials as a means to grow in faith."
+      },
+      {
+        "chapter": 2,
+        "verse_start": 17,
+        "text": "Faith without works is a dead faith, for true faith is active."
+      }
+    ]
+  }
+  
