@@ -1,21 +1,639 @@
 {
-    "book": "James",
-    "references": [
-      {
-        "chapter": 1,
-        "verse": 2,
-        "related_verses": [
-          { "book": "Romans", "chapter": 5, "verse": 3 },
-          { "book": "1 Peter", "chapter": 1, "verse": 6 }
-        ]
-      },
-      {
-        "chapter": 2,
-        "verse": 17,
-        "related_verses": [
-          { "book": "Galatians", "chapter": 5, "verse": 6 }
-        ]
-      }
-    ]
-  }
-  
+  "book": "James",
+  "references": [
+    {
+      "chapter": 1,
+      "verse": 2,
+      "related_verses": [
+        { "book": "Romans", "chapter": 5, "verse": 3 },
+        { "book": "1 Peter", "chapter": 1, "verse": 6 },
+        { "book": "Matthew", "chapter": 5, "verse": 12 },
+        { "book": "2 Corinthians", "chapter": 4, "verse": 17 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 3,
+      "related_verses": [
+        { "book": "Romans", "chapter": 5, "verse": 4 },
+        { "book": "Hebrews", "chapter": 12, "verse": 11 },
+        { "book": "1 Peter", "chapter": 5, "verse": 10 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 5,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 2, "verse": 6 },
+        { "book": "Matthew", "chapter": 7, "verse": 7 },
+        { "book": "1 Kings", "chapter": 3, "verse": 9 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 6,
+      "related_verses": [
+        { "book": "Mark", "chapter": 11, "verse": 23 },
+        { "book": "Hebrews", "chapter": 11, "verse": 6 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 12,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 5, "verse": 10 },
+        { "book": "1 Corinthians", "chapter": 9, "verse": 25 },
+        { "book": "Revelation", "chapter": 2, "verse": 10 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 13,
+      "related_verses": [
+        { "book": "Genesis", "chapter": 22, "verse": 1 },
+        { "book": "1 Corinthians", "chapter": 10, "verse": 13 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 17,
+      "related_verses": [
+        { "book": "Malachi", "chapter": 3, "verse": 6 },
+        { "book": "John", "chapter": 3, "verse": 27 },
+        { "book": "Numbers", "chapter": 23, "verse": 19 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 19,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 10, "verse": 19 },
+        { "book": "Ecclesiastes", "chapter": 7, "verse": 9 },
+        { "book": "Ephesians", "chapter": 4, "verse": 26 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 22,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 7, "verse": 24 },
+        { "book": "Luke", "chapter": 6, "verse": 46 },
+        { "book": "Romans", "chapter": 2, "verse": 13 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 25,
+      "related_verses": [
+        { "book": "John", "chapter": 8, "verse": 32 },
+        { "book": "Galatians", "chapter": 5, "verse": 1 },
+        { "book": "2 Corinthians", "chapter": 3, "verse": 17 }
+      ]
+    },
+    {
+      "chapter": 1,
+      "verse": 27,
+      "related_verses": [
+        { "book": "Isaiah", "chapter": 1, "verse": 17 },
+        { "book": "Matthew", "chapter": 25, "verse": 36 },
+        { "book": "1 John", "chapter": 3, "verse": 17 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 1,
+      "related_verses": [
+        { "book": "Leviticus", "chapter": 19, "verse": 15 },
+        { "book": "Matthew", "chapter": 22, "verse": 16 },
+        { "book": "1 Corinthians", "chapter": 1, "verse": 26 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 5,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 5, "verse": 3 },
+        { "book": "1 Corinthians", "chapter": 1, "verse": 27 },
+        { "book": "Luke", "chapter": 6, "verse": 20 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 8,
+      "related_verses": [
+        { "book": "Leviticus", "chapter": 19, "verse": 18 },
+        { "book": "Matthew", "chapter": 22, "verse": 39 },
+        { "book": "Romans", "chapter": 13, "verse": 9 },
+        { "book": "Galatians", "chapter": 5, "verse": 14 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 10,
+      "related_verses": [
+        { "book": "Deuteronomy", "chapter": 27, "verse": 26 },
+        { "book": "Matthew", "chapter": 5, "verse": 19 },
+        { "book": "Galatians", "chapter": 3, "verse": 10 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 12,
+      "related_verses": [
+        { "book": "Romans", "chapter": 2, "verse": 12 },
+        { "book": "John", "chapter": 12, "verse": 48 },
+        { "book": "Matthew", "chapter": 12, "verse": 37 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 13,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 5, "verse": 7 },
+        { "book": "Matthew", "chapter": 6, "verse": 14 },
+        { "book": "Proverbs", "chapter": 21, "verse": 13 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 14,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 7, "verse": 21 },
+        { "book": "1 John", "chapter": 3, "verse": 17 },
+        { "book": "Titus", "chapter": 1, "verse": 16 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 17,
+      "related_verses": [
+        { "book": "Galatians", "chapter": 5, "verse": 6 },
+        { "book": "Titus", "chapter": 2, "verse": 14 },
+        { "book": "Ephesians", "chapter": 2, "verse": 10 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 18,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 7, "verse": 16 },
+        { "book": "Hebrews", "chapter": 11, "verse": 4 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 19,
+      "related_verses": [
+        { "book": "Mark", "chapter": 1, "verse": 24 },
+        { "book": "Luke", "chapter": 4, "verse": 34 },
+        { "book": "Acts", "chapter": 16, "verse": 17 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 21,
+      "related_verses": [
+        { "book": "Genesis", "chapter": 22, "verse": 12 },
+        { "book": "Hebrews", "chapter": 11, "verse": 17 },
+        { "book": "Romans", "chapter": 4, "verse": 3 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 22,
+      "related_verses": [
+        { "book": "John", "chapter": 6, "verse": 29 },
+        { "book": "1 Thessalonians", "chapter": 1, "verse": 3 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 23,
+      "related_verses": [
+        { "book": "Genesis", "chapter": 15, "verse": 6 },
+        { "book": "Romans", "chapter": 4, "verse": 3 },
+        { "book": "Galatians", "chapter": 3, "verse": 6 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 24,
+      "related_verses": [
+        { "book": "Romans", "chapter": 2, "verse": 13 },
+        { "book": "Galatians", "chapter": 2, "verse": 16 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 25,
+      "related_verses": [
+        { "book": "Joshua", "chapter": 2, "verse": 9 },
+        { "book": "Hebrews", "chapter": 11, "verse": 31 }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verse": 26,
+      "related_verses": [
+        { "book": "Job", "chapter": 34, "verse": 14 },
+        { "book": "Ecclesiastes", "chapter": 12, "verse": 7 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 1,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 12, "verse": 36 },
+        { "book": "Luke", "chapter": 12, "verse": 48 },
+        { "book": "1 Timothy", "chapter": 1, "verse": 7 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 2,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 10, "verse": 19 },
+        { "book": "Matthew", "chapter": 12, "verse": 37 },
+        { "book": "1 John", "chapter": 1, "verse": 8 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 5,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 16, "verse": 27 },
+        { "book": "Proverbs", "chapter": 26, "verse": 20 },
+        { "book": "Matthew", "chapter": 12, "verse": 34 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 6,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 18, "verse": 21 },
+        { "book": "Matthew", "chapter": 15, "verse": 11 },
+        { "book": "Mark", "chapter": 7, "verse": 20 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 8,
+      "related_verses": [
+        { "book": "Psalm", "chapter": 140, "verse": 3 },
+        { "book": "Romans", "chapter": 3, "verse": 13 },
+        { "book": "Ecclesiastes", "chapter": 10, "verse": 11 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 9,
+      "related_verses": [
+        { "book": "Genesis", "chapter": 1, "verse": 27 },
+        { "book": "Psalm", "chapter": 50, "verse": 16 },
+        { "book": "Matthew", "chapter": 5, "verse": 44 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 10,
+      "related_verses": [
+        { "book": "Ephesians", "chapter": 4, "verse": 29 },
+        { "book": "Colossians", "chapter": 3, "verse": 8 },
+        { "book": "1 Peter", "chapter": 3, "verse": 10 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 13,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 14, "verse": 33 },
+        { "book": "Proverbs", "chapter": 17, "verse": 27 },
+        { "book": "Matthew", "chapter": 5, "verse": 16 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 14,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 26, "verse": 24 },
+        { "book": "1 Corinthians", "chapter": 3, "verse": 3 },
+        { "book": "Galatians", "chapter": 5, "verse": 20 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 15,
+      "related_verses": [
+        { "book": "1 Corinthians", "chapter": 2, "verse": 14 },
+        { "book": "Jude", "chapter": 1, "verse": 19 },
+        { "book": "Romans", "chapter": 8, "verse": 6 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 16,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 29, "verse": 22 },
+        { "book": "1 Corinthians", "chapter": 14, "verse": 33 },
+        { "book": "Galatians", "chapter": 5, "verse": 15 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 17,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 8, "verse": 6 },
+        { "book": "Isaiah", "chapter": 32, "verse": 17 },
+        { "book": "Philippians", "chapter": 4, "verse": 8 }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verse": 18,
+      "related_verses": [
+        { "book": "Psalm", "chapter": 85, "verse": 10 },
+        { "book": "Matthew", "chapter": 5, "verse": 9 },
+        { "book": "Hebrews", "chapter": 12, "verse": 11 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 1,
+      "related_verses": [
+        { "book": "Romans", "chapter": 7, "verse": 23 },
+        { "book": "Galatians", "chapter": 5, "verse": 17 },
+        { "book": "1 Peter", "chapter": 2, "verse": 11 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 2,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 27, "verse": 4 },
+        { "book": "Matthew", "chapter": 7, "verse": 7 },
+        { "book": "1 John", "chapter": 3, "verse": 15 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 3,
+      "related_verses": [
+        { "book": "Psalm", "chapter": 66, "verse": 18 },
+        { "book": "Proverbs", "chapter": 21, "verse": 13 },
+        { "book": "1 John", "chapter": 5, "verse": 14 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 4,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 6, "verse": 24 },
+        { "book": "Romans", "chapter": 8, "verse": 7 },
+        { "book": "1 John", "chapter": 2, "verse": 15 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 6,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 3, "verse": 34 },
+        { "book": "Matthew", "chapter": 23, "verse": 12 },
+        { "book": "1 Peter", "chapter": 5, "verse": 5 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 7,
+      "related_verses": [
+        { "book": "Ephesians", "chapter": 4, "verse": 27 },
+        { "book": "1 Peter", "chapter": 5, "verse": 9 },
+        { "book": "Luke", "chapter": 4, "verse": 8 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 8,
+      "related_verses": [
+        { "book": "Psalm", "chapter": 145, "verse": 18 },
+        { "book": "Isaiah", "chapter": 55, "verse": 6 },
+        { "book": "Hebrews", "chapter": 10, "verse": 22 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 10,
+      "related_verses": [
+        { "book": "1 Samuel", "chapter": 2, "verse": 7 },
+        { "book": "Matthew", "chapter": 5, "verse": 5 },
+        { "book": "Luke", "chapter": 14, "verse": 11 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 11,
+      "related_verses": [
+        { "book": "Leviticus", "chapter": 19, "verse": 16 },
+        { "book": "Romans", "chapter": 14, "verse": 4 },
+        { "book": "Ephesians", "chapter": 4, "verse": 31 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 12,
+      "related_verses": [
+        { "book": "Deuteronomy", "chapter": 32, "verse": 39 },
+        { "book": "Isaiah", "chapter": 33, "verse": 22 },
+        { "book": "Romans", "chapter": 14, "verse": 12 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 13,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 27, "verse": 1 },
+        { "book": "Luke", "chapter": 12, "verse": 18 },
+        { "book": "Isaiah", "chapter": 56, "verse": 12 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 14,
+      "related_verses": [
+        { "book": "Job", "chapter": 14, "verse": 1 },
+        { "book": "Psalm", "chapter": 39, "verse": 5 },
+        { "book": "Ecclesiastes", "chapter": 6, "verse": 12 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 15,
+      "related_verses": [
+        { "book": "Acts", "chapter": 18, "verse": 21 },
+        { "book": "1 Corinthians", "chapter": 4, "verse": 19 },
+        { "book": "Hebrews", "chapter": 6, "verse": 3 }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verse": 17,
+      "related_verses": [
+        { "book": "Luke", "chapter": 12, "verse": 47 },
+        { "book": "John", "chapter": 9, "verse": 41 },
+        { "book": "Romans", "chapter": 14, "verse": 23 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 1,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 11, "verse": 28 },
+        { "book": "Luke", "chapter": 6, "verse": 24 },
+        { "book": "1 Timothy", "chapter": 6, "verse": 9 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 3,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 6, "verse": 19 },
+        { "book": "Romans", "chapter": 2, "verse": 5 },
+        { "book": "Ezekiel", "chapter": 7, "verse": 19 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 4,
+      "related_verses": [
+        { "book": "Leviticus", "chapter": 19, "verse": 13 },
+        { "book": "Deuteronomy", "chapter": 24, "verse": 14 },
+        { "book": "Malachi", "chapter": 3, "verse": 5 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 5,
+      "related_verses": [
+        { "book": "Luke", "chapter": 16, "verse": 19 },
+        { "book": "Amos", "chapter": 6, "verse": 1 },
+        { "book": "Ezekiel", "chapter": 16, "verse": 49 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 7,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 24, "verse": 42 },
+        { "book": "Hebrews", "chapter": 10, "verse": 36 },
+        { "book": "Revelation", "chapter": 22, "verse": 20 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 8,
+      "related_verses": [
+        { "book": "Romans", "chapter": 13, "verse": 11 },
+        { "book": "1 Peter", "chapter": 4, "verse": 7 },
+        { "book": "Philippians", "chapter": 4, "verse": 5 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 9,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 7, "verse": 1 },
+        { "book": "Romans", "chapter": 14, "verse": 10 },
+        { "book": "1 Peter", "chapter": 4, "verse": 5 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 10,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 5, "verse": 12 },
+        { "book": "Hebrews", "chapter": 11, "verse": 32 },
+        { "book": "Acts", "chapter": 7, "verse": 52 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 11,
+      "related_verses": [
+        { "book": "Job", "chapter": 1, "verse": 21 },
+        { "book": "Job", "chapter": 42, "verse": 10 },
+        { "book": "Lamentations", "chapter": 3, "verse": 31 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 12,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 5, "verse": 34 },
+        { "book": "Ecclesiastes", "chapter": 5, "verse": 2 },
+        { "book": "Colossians", "chapter": 3, "verse": 9 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 13,
+      "related_verses": [
+        { "book": "Psalm", "chapter": 50, "verse": 15 },
+        { "book": "Philippians", "chapter": 4, "verse": 6 },
+        { "book": "1 Thessalonians", "chapter": 5, "verse": 16 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 14,
+      "related_verses": [
+        { "book": "Mark", "chapter": 6, "verse": 13 },
+        { "book": "Matthew", "chapter": 10, "verse": 8 },
+        { "book": "Acts", "chapter": 9, "verse": 34 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 15,
+      "related_verses": [
+        { "book": "Matthew", "chapter": 9, "verse": 22 },
+        { "book": "Luke", "chapter": 8, "verse": 50 },
+        { "book": "1 John", "chapter": 5, "verse": 14 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 16,
+      "related_verses": [
+        { "book": "Proverbs", "chapter": 28, "verse": 13 },
+        { "book": "Matthew", "chapter": 18, "verse": 19 },
+        { "book": "1 John", "chapter": 1, "verse": 9 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 17,
+      "related_verses": [
+        { "book": "1 Kings", "chapter": 17, "verse": 1 },
+        { "book": "Luke", "chapter": 4, "verse": 25 },
+        { "book": "Revelation", "chapter": 11, "verse": 6 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 19,
+      "related_verses": [
+        { "book": "Galatians", "chapter": 6, "verse": 1 },
+        { "book": "Matthew", "chapter": 18, "verse": 15 },
+        { "book": "Luke", "chapter": 15, "verse": 7 }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verse": 20,
+      "related_verses": [
+        { "book": "Daniel", "chapter": 12, "verse": 3 },
+        { "book": "Proverbs", "chapter": 10, "verse": 12 },
+        { "book": "1 Peter", "chapter": 4, "verse": 8 }
+      ]
+    }
+  ]
+}
