@@ -1,5 +1,8 @@
 [
     { "translation": "NIV", "language": "English", "source": "Biblica", "year": 2011 },
-    { "translation": "KJV", "language": "English", "source": "Public Domain", "year": 1611 }
+    { "translation": "KJV", "language": "English", "source": "Public Domain", "year": 1611 },
+    { "translation": "ESV", "language": "English", "source": "Crossway", "year": 2001 },
+    { "translation": "AMP", "language": "English", "source": "The Lockman Foundation", "year": 2015 },
+    { "translation": "GNT", "language": "Greek", "source": "United Bible Societies", "year": 1975 }
   ]
   
